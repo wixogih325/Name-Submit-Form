@@ -11,6 +11,4 @@ app.use((err, req, res, next) => {
   res.status(400).end();
 })
 
-app.listen(3000, () => {
-  console.log("Server is running 3000 port");
-})
+module.exports = app;
