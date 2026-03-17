@@ -1,0 +1,38 @@
+.table {
+  position: relative;
+  background-color: lightgreen;
+  font-size: 1.5pc;
+  width: 18pc;
+  display: inline-flex;
+  padding: .5pc;
+  margin: .5pc;
+}
+
+.table .delete,
+.table .edit {
+  position: absolute;
+  height: 2pc;
+  width: 2pc;
+  font-size: 1.5pc;
+  right: .5pc;
+}
+
+.table .delete {
+  bottom: .5pc;
+}
+
+.table .edit {
+  bottom: 4pc;
+}
+
+form {
+  height: 15pc;
+}
+
+.reload {
+  position: absolute;
+  right: 1pc;
+  bottom: 1pc;
+  background-color: red;
+  color: #fff;
+}

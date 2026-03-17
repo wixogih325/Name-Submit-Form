@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Name Submit Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <form action="/api/send" method="post">
+    <input required type="text" name="firstName" placeholder="First Name" class="input">
+    <input required type="text" name="lastName" placeholder="Last Name" class="input">
+    <input required type="number" name="age" placeholder="Age" class="input">
+    <input required type="text" name="village" placeholder="Village" class="input">
+    <br>
+    <input type="reset" value="Reset" class="btn">
+    <input type="submit" value="Submit" class="btn">
+  </form>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

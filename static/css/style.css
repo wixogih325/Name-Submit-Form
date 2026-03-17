@@ -1,0 +1,47 @@
+* {
+  transition: .5s;
+}
+
+form {
+  height: 25pc;
+  background-color: lightgreen;
+  width: 25pc;
+  text-align: center;
+  align-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 1pc;
+}
+
+.input,
+.btn,
+.reload {
+  font-size: 1.5pc;
+  margin: .5pc;
+  padding: .5pc;
+  width: 15pc;
+  background-color: #fff;
+  border: 1px solid black;
+  border-style: none;
+  border-radius: 1pc;
+  text-align: center;
+}
+
+.input:focus {
+  outline: 1pc solid lightgreen;
+}
+
+.btn,
+.reload {
+  width: 7pc;
+}
+
+.btn:hover,
+.reload:hover {
+  background-color: darkviolet;
+  color: #fff;
+}
